@@ -1,0 +1,12 @@
+1.
+a)   File "/Users/yiuchungleung/Desktop/2023 ss tu braunschweig/Computer Vision and Machine Learning/Exercise 1/task3.py", line 6, in <module>
+    print(team[0] + ". ." + team[teamSize])
+so the error basically occurs in the task3.py file that given in task 3
+
+b)	line 6, in <module>
+c)	print(team[0] + ". ." + team[teamSize])
+d)	Exception has occurred: IndexError
+e)	list index out of range
+
+2.
+Is basically that python is a 0 based indexing interpreted langauage. So to access the first piece of memory block in an array or list is starting from 0. Following this logic the last element should be index of [n-1] where n is the length of the array/list. So in this case, we just access the next memory block of the last element of the list, which cannot be done.
